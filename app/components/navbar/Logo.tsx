@@ -7,12 +7,12 @@ const Logo = () => {
   const router = useRouter();
 
   return ( 
-    <div className="flex items-center gap-2">
+    <div   onClick={() => router.push('/')} className="hidden md:flex md:items-center gap-2 cursor-pointer">
 
  
     <Image
-      onClick={() => router.push('/')}
-      className="hidden md:block cursor-pointer" 
+    
+  
       src="/images/Booknowphlogo.png" 
       height="50" 
       width="50" 
