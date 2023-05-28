@@ -11,8 +11,6 @@ const Logo = () => {
 
  
     <Image
-    
-  
       src="/images/Booknowphlogo.png" 
       height="50" 
       width="50" 
